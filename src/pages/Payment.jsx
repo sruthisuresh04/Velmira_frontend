@@ -39,7 +39,7 @@ const Payment = () => {
       const userId = localStorage.getItem("userId");
       const userName = localStorage.getItem("userName");
 
-      const res = await fetch(`{backendUrl}/api/booking/create`, {
+      const res = await fetch(`${backendUrl}/api/booking/create`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
