@@ -1,6 +1,6 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
-import logo from "../assets/Logo.png";
+// import logo from "../assets/Logo.png";
 // import { useWishlist } from "../context/WishlistContext";
 
 const Navbar = ({ token, setToken }) => {
