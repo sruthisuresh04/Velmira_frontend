@@ -88,7 +88,7 @@ const ProductDetails = () => {
   };
 
   const fetchProduct = async () => {
-    const res = await axios.get(`{backendUrl}/api/product/list`);
+    const res = await axios.get(`${backendUrl}/api/product/list`);
 
     if (res.data.success) {
       const found = res.data.products.find((p) => p._id === id);
