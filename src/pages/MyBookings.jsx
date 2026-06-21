@@ -34,7 +34,7 @@ const MyBookings = () => {
 
   const cancelBooking = async (id) => {
     try {
-      await axios.post(`{backendUrl}/api/booking/status`, {
+      await axios.post(`${backendUrl}/api/booking/status`, {
         id,
         status: "Cancelled",
       });
