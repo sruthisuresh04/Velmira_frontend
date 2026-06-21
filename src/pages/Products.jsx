@@ -15,7 +15,7 @@ const Products = () => {
   const activeCategory = queryCategory || "All";
 
   const fetchProducts = async () => {
-    const res = await axios.get(`{backendUrl}/api/product/list`);
+    const res = await axios.get(`${backendUrl}/api/product/list`);
 
     if (res.data.success) {
       setProducts(res.data.products);
