@@ -1,12 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import test01 from "../assets/test01.jpg";
+import test02 from "../assets/test02.jpg";
+import test03 from "../assets/test03.jpg";
+import test04 from "../assets/test04.jpg";
+
 
 const Categories = () => {
   const categories = [
-    { name: "Necklace", image: "https://images.unsplash.com/photo-1611652022419-a9419f74343d" },
-    { name: "Earrings", image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908" },
-    { name: "Bangles", image: "https://trejours.com/storage/products/1083_0.png" },
-    { name: "Rings", image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e" }
+    { name: "Necklace", image: test01 },
+    { name: "Earrings", image:test02 },
+    { name: "Bangles", image:test04  },
+    { name: "Rings", image:test03 }
   ];
 
   return (
