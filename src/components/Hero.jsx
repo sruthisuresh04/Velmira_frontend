@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import test0 from "../assets/test0.png";
 
 const Hero = () => {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       
       <img
-        src="https://images.unsplash.com/photo-1617038220319-276d3cfab638"
+        src={test0}
         className="absolute inset-0 w-full h-full object-cover"
         alt=""
       />
